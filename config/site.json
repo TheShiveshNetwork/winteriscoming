@@ -1,0 +1,9 @@
+{
+  "siteUrl": "https://ritnotebook.pages.dev",
+  "pages": {
+    "first": "https://ritnotebook.pages.dev/notes/first.html",
+    "second": "https://ritnotebook.pages.dev/notes/second.html",
+    "third": "https://ritnotebook.pages.dev/notes/third.html",
+    "fourth": "https://ritnotebook.pages.dev/notes/fourth.html"
+  }
+}
