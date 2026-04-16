@@ -3,8 +3,6 @@ from bs4 import BeautifulSoup
 import json
 import re
 import os
-from urllib.parse import urlparse
-import tempfile
 
 from common.config import CONFIG_PATH, SCRAPED_LINKS_PATH, read_json_data, write_json_file
 

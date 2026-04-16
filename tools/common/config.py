@@ -1,4 +1,5 @@
-import os, json
+import os, json, tempfile
+from urllib.parse import urlparse
 
 CONFIG_PATH = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "../../config/site.json")
