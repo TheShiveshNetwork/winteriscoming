@@ -1,0 +1,19 @@
+{
+  "name": "semestr",
+  "private": true,
+  "version": "1.0.0",
+  "engines": { "node": ">=20", "pnpm": ">=9" },
+  "scripts": {
+    "dev":     "pnpm --filter app dev",
+    "build":   "pnpm --filter shared build && pnpm --filter app build",
+    "ingest":  "pnpm --filter ingestion start",
+    "lint":    "pnpm -r lint",
+    "format":  "prettier --write \"packages/**/*.{ts,tsx,json,md}\"",
+    "check":   "prettier --check \"packages/**/*.{ts,tsx,json,md}\"",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.2"
+}

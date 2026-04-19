@@ -1,3 +1,13 @@
+# monorepo
+node_modules
+.next
+dist
+*.tsbuildinfo
+.ingestion-checkpoint
+packages/ingestion/tmp
+EOF
+
+# for tools
 data/**
 !data/README.md
 
